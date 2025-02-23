@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Marco\AzureStorage\Auth;
+namespace Mutario\AzureStorage\Auth;
 
-use Marco\AzureStorage\Config\BlobStorageConfig;
+use Mutario\AzureStorage\Config\BlobStorageConfig;
 use DateTime;
 use DateTimeZone;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Marco\AzureStorage\Config;
+namespace Mutario\AzureStorage\Config;
 
 /**
  * Configuration class for Azure Blob Storage

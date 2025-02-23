@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Marco\AzureStorage;
+namespace Mutario\AzureStorage;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use Marco\AzureStorage\Auth\SharedKeyAuthenticator;
-use Marco\AzureStorage\Config\BlobStorageConfig;
+use Mutario\AzureStorage\Auth\SharedKeyAuthenticator;
+use Mutario\AzureStorage\Config\BlobStorageConfig;
 use RuntimeException;
 
 /**

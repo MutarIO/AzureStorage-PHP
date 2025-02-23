@@ -19,7 +19,7 @@ A modern PHP library for interacting with Azure Blob Storage, with support for l
 Install the package via composer:
 
 ```bash
-composer require marco/azure-storage-php
+composer require mutario/azure-storage-php
 ```
 
 ## Usage
@@ -27,8 +27,8 @@ composer require marco/azure-storage-php
 ### Initialize with Cloud Storage (Shared Key Authentication)
 
 ```php
-use Marco\AzureStorage\BlobStorage;
-use Marco\AzureStorage\Config\BlobStorageConfig;
+use Mutario\AzureStorage\BlobStorage;
+use Mutario\AzureStorage\Config\BlobStorageConfig;
 
 // Initialize with cloud storage credentials
 $config = new BlobStorageConfig(
@@ -45,8 +45,8 @@ $storage = new BlobStorage($config);
 ### Initialize with SAS Token Authentication
 
 ```php
-use Marco\AzureStorage\BlobStorage;
-use Marco\AzureStorage\Config\BlobStorageConfig;
+use Mutario\AzureStorage\BlobStorage;
+use Mutario\AzureStorage\Config\BlobStorageConfig;
 
 // Initialize with SAS token
 $config = BlobStorageConfig::createSasConfig(
@@ -61,8 +61,8 @@ $storage = new BlobStorage($config);
 ### Initialize with Azurite (Local Development)
 
 ```php
-use Marco\AzureStorage\BlobStorage;
-use Marco\AzureStorage\Config\BlobStorageConfig;
+use Mutario\AzureStorage\BlobStorage;
+use Mutario\AzureStorage\Config\BlobStorageConfig;
 
 // Initialize with Azurite emulator
 $config = BlobStorageConfig::createAzuriteConfig('your-container-name');
