@@ -1,16 +1,16 @@
 {
-    "name": "marco/azure-storage-php",
+    "name": "mutario/azure-storage-php",
     "description": "A PHP library for interacting with Azure Blob Storage, with support for local Azurite emulator",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Marco\\AzureStorage\\": "src/"
+            "Mutario\\AzureStorage\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Marco",
+            "name": "MutarIO",
             "role": "Developer"
         }
     ],
